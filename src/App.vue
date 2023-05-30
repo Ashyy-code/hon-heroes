@@ -188,15 +188,15 @@ body {
       }
 
       &[goodmw="1"] {
-        border: solid 2px rgb(59, 91, 46);
+        border: solid 3px rgb(71, 121, 51);
         img {
           opacity: 0.3;
         }
       }
       &[goodmw="0"] {
-        border: solid 2px rgb(75, 35, 35);
+        border: solid 3px rgb(75, 35, 35);
         img {
-          opacity: 0.05;
+          opacity: 0.1;
         }
       }
 
@@ -208,7 +208,6 @@ body {
 
         &[og] {
           opacity: 1;
-          border: solid 1px gold;
           position: absolute;
           top: 0;
           left: 0;

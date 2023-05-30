@@ -1,4 +1,36 @@
 <template>
+  <div class="key">
+    <div class="key-item">
+      <div class="box" bd>
+
+      </div>
+      <div class="box-desc">
+        = Bad at Midwars
+      </div>
+      
+    </div>
+
+    <div class="key-item">
+      <div class="box" gd>
+
+      </div>
+      <div class="box-desc">
+        = Good at Midwars
+      </div>
+      
+    </div>
+
+    <div class="key-item">
+      <div class="box" ham>
+        <i class="bx bxs-no-entry"></i>
+      </div>
+      <div class="box-desc">
+       = Ban Worthy Hero
+      </div>
+      
+    </div>
+
+  </div>
   <div class="set-wrap">
     <div class="hero-set">
       <div
@@ -157,6 +189,11 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.key{
+  background:rgb(12, 12, 12);
+  padding:2rem;
+
+}
 .set-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -221,6 +258,49 @@ body {
         }
 
         &[pp] {
+        }
+      }
+    }
+  }
+}
+.key{
+  color:white;
+  display:flex;
+  flex-direction: row;
+  gap:1rem;
+  justify-content: center;
+  align-items: center;
+
+  .key-item{
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+
+    .box{
+      height:65px;
+      width:65px;
+      position:relative;
+
+      &[gd]{
+        border: solid 3px rgb(71, 121, 51);
+      }
+
+      &[bd]{
+        border: solid 3px rgb(75, 35, 35);
+      }
+
+
+      &[ham]{
+        border: solid 3px rgb(59, 59, 59);
+        i{
+          position:absolute;
+          top:.25rem;
+          right:.25rem;
+          color:red;
+          font-size:150%;
         }
       }
     }

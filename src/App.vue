@@ -227,13 +227,13 @@ body {
       &[goodmw="1"] {
         border: solid 3px rgb(71, 121, 51);
         img {
-          opacity: 0.3;
+          opacity: 0.2;
         }
       }
       &[goodmw="0"] {
         border: solid 3px rgb(75, 35, 35);
         img {
-          opacity: 0.1;
+          opacity: 0.2;
         }
       }
 
@@ -257,8 +257,7 @@ body {
           }
         }
 
-        &[pp] {
-        }
+    
       }
     }
   }

@@ -173,12 +173,14 @@ export default {
       );
     },
     nameHotFix(name) {
-      if (name == "Arachna") {
-        return "Dirty Stinky Spider Bitch";
-      }
-      if (name == "Artillery") {
-        return "No.";
-      }
+      if (name == "Arachna") {return "Dirty Stinky Spidery Bitch";};
+      if (name == "Artillery") {return "No.";};
+      if (name == "Empath") {return "Ash's Buttplug";};
+      //new ones below
+      if (name == "Thunderbringer") {return "Show you my HS.. Clown?";};
+      if (name == "Artillery") {return "No.";};
+      if (name == "Artillery") {return "No.";};
+      if (name == "Artillery") {return "No.";};
       return name;
     },
     showPP(element) {

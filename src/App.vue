@@ -178,8 +178,8 @@ export default {
       if (name == "Empath") {return "Ash's Buttplug";};
       //new ones below
       if (name == "Thunderbringer") {return "Show you my HS.. Clown?";};
-      if (name == "Artillery") {return "No.";};
-      if (name == "Artillery") {return "No.";};
+      if (name == "Adrenaline") {return "Nonce Goth";};
+      if (name == "Pearl") {return "Where is mana ring?!";};
       if (name == "Artillery") {return "No.";};
       return name;
     },

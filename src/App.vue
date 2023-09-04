@@ -181,6 +181,7 @@ export default {
       if (name == "Adrenaline") {return "Nonce Goth";};
       if (name == "Pearl") {return "Where is mana ring?!";};
       if (name == "Artillery") {return "No.";};
+      if (name == "Geomancer") {return "Small Slithery Ground-Prawn";};
       return name;
     },
     showPP(element) {
